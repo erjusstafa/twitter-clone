@@ -1,0 +1,262 @@
+html {
+    font-language-override: 92.5%;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font: 1rem helvetica;
+    height: 100vh;
+}
+
+
+.App {
+    display: grid;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.Main {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 12px;
+}
+
+
+.Sidebar_Area {
+    width: 20%;
+    display: grid;
+    height: 40rem;
+    justify-content: center;
+}
+
+.Sidebar_Area > div {
+    margin-top: 15px;
+}
+
+.Icons { 
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.Icons > div {
+    margin : 0 12px ;
+}
+
+.Icons:hover {
+    color : #1DA1F2 ;
+} 
+
+.btn {
+    background-color: #1DA1F2;
+    color: white;
+    width: 100%;
+    padding: 6px 12px ;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+
+.Main_Area {
+    width: 50%;
+
+   
+} 
+
+.Home {
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+    background-color: white;
+}
+
+.home {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.Create_post {
+    height: 6rem;
+    display: grid;
+    background-color: white;
+    border : 1px gray solid ;
+    padding: .5rem;
+}
+
+.Add_text {
+    display: flex;
+    align-items: center;
+}
+
+
+input[type="Post"] {
+    height: 2rem;
+    border: none;
+}
+
+input::placeholder {
+    font-size : 1rem;
+}
+
+.Btns {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Icon {
+    display: flex;
+}
+
+.Icon > div {
+    padding: 0 12px;
+}
+
+.btns-create {
+    background-color: #1DA1F2;
+    border: none;
+    height: 2rem;
+    padding: 0 18px;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+
+}
+
+.posted_Area {
+    border: 1px grey solid;
+}
+
+.Profile {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    cursor: pointer;
+
+}
+
+.User_Detail {
+    display: flex;
+    align-items: center;
+}
+
+.User_Detail > div {
+    padding: 0 2px ;
+}
+
+.User_Name {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+
+.User_id {
+    font-size: .7rem;
+}
+
+.Quotes {
+    padding: .5rem;
+}
+
+.Profile_images {
+    padding: .5rem;
+}
+
+.Comment_Section {
+    display: flex;
+    justify-content: space-around;
+    height: 2rem;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+
+.Left_Sidebar_Area {
+    width: 30%;
+    margin: 12px 12px;
+    justify-content: flex-start;
+}
+
+.Search {
+    display: flex;
+    align-items: center;
+    background-color: #E7EBEF;
+    width: 80%;
+    height: 3rem;
+    border-radius: 25px;
+    padding-left: 1rem;
+}
+
+input[type="Search"] {
+    border: none;
+    background-color: #E7EBEF;
+}
+
+.Container {
+    background-color: #E7EBEF;
+    width: 80%;
+    height: 40rem;
+    border-radius: 25px;
+}
+
+.Trends {
+    display: flex;
+    justify-content: space-between;
+    height: 1.6rem;
+    padding: 1rem;
+    border-bottom: 1px gray solid;
+}
+
+.Trends_4u {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.Trending_worlwide {
+    border-bottom: 1px gray solid;
+    padding-left: 1rem;
+    height: 7rem;
+    align-items: center;
+}
+
+.Setting_icon{
+    cursor: pointer;
+}
+
+.Trending_worlwide > div {
+    margin: 6px 0;
+}
+
+.Treding_show {
+    font-size: 1rem;
+    color: lightseagreen;
+}
+
+.tag {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.tweet_people {
+    font-size: 1rem;
+}
+
+.Tweets {
+    font-size: 1rem;
+    color: lightseagreen;
+}
+
+.See_more {
+    color: #0e6499;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
